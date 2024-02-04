@@ -4,16 +4,7 @@
 
     export let data: PageServerData
 
-    let money = 0
 
-    for(let x = 0; x < data.incomes.length; x++) {
-        
-        money += data.incomes[x].income
-    }
-
-    for(let i = 0; i < data.expenses.length; i++) {
-        money -= data.expenses[i].cost
-    }
 
 </script>
 
@@ -22,7 +13,7 @@
 
 <div class="w-full">
     <div class="">
-        <h2>Current money: {money}</h2>
+        <h2>Current money: {data.money}</h2>
     </div>
 
     <h2 class="my-2">Incomes</h2>
