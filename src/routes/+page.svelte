@@ -38,9 +38,9 @@
         <input type="text" id="cost" class="mt-3 w-full px-4 py-2 rounded-l bg-transparent border-2 border-slate-900 outline-none" placeholder="Cost" name="cost">
         <div class="flex justify-center mt-2 gap-3">
             <label for="income">Income</label>
-            <input type="radio" name="income" id="income">
+            <input type="radio" name="income-or-income" id="income">
             <label for="expense" class="ml-5">Expense</label>
-            <input type="radio" name="expense" id="expense">
+            <input type="radio" name="income-or-income" id="expense">
         </div>
         <button type="submit" class="w-full mt-3 py-2 bg-slate-900">Add</button>
     </form>
